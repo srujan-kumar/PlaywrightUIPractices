@@ -1,0 +1,81 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log In</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<script type="text/javascript">
+	if (window.location !== window.parent.location) {
+		// The page is in an iframe	
+		window.parent.location.reload();
+	}
+</script>
+</head>
+
+<body class="spectre" style="margin: 0px">
+
+	<div id="root"></div>
+	<script>
+		var isPopupLogin = false, login = 'failed', message = 'The password you entered is incorrect.';
+	</script>
+	
+	
+	
+	
+		
+		
+		
+			
+		
+	
+	
+	<iframe id="microfe-popup-login"
+		src="/t/public/login"
+		style="width: calc(100% + 10px); height: 100vh; border: none;"></iframe>
+<!-- 		onload="$(this).parent().removeClass('loading');"></iframe> -->
+		
+	
+	
+		
+ 			<script async src="http://www.googletagmanager.com/gtag/js?id=G-FL7MT0Y8ZS"></script>
+			<script>
+  				window.dataLayer = window.dataLayer || [];
+  				function gtag(){dataLayer.push(arguments);}
+  				gtag('js', new Date());
+
+  				gtag('config', 'G-FL7MT0Y8ZS');
+  			</script>
+		
+		
+	
+	
+	
+	
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function(event) {
+			var signupParamsStr = '';
+			if(signupParamsStr) {
+				window.signupParams = JSON.parse(signupParamsStr); 
+			}
+			const signupParamsField = document.getElementById("signupParams");
+			if(signupParamsField && (window.signupParams)) {
+				signupParamsField.value = JSON.stringify(window.signupParams);
+			}
+			
+			const ipInfo = localStorage.getItem("ipInfo");
+			const ipInfoField = document.getElementById("ipInfo");			
+			if(ipInfo && ipInfoField) {
+			   ipInfoField.value = ipInfo;
+			}
+		});
+	</script>
+	
+</body>
+</html>

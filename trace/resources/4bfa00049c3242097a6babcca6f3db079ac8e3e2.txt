@@ -1,0 +1,2 @@
+en=form_start&ep.form_id=loginForm&ep.form_name=&ep.form_destination=https%3A%2F%2Facademy.naveenautomationlabs.com%2Fs%2Fauthenticate&epn.form_length=6&ep.first_field_id=input-email&ep.first_field_name=email&ep.first_field_type=text&epn.first_field_position=1&_et=278
+en=form_submit&ep.form_id=loginForm&ep.form_name=&ep.form_destination=https%3A%2F%2Facademy.naveenautomationlabs.com%2Fs%2Fauthenticate&epn.form_length=6&_et=164
